@@ -8,6 +8,11 @@ vim.opt.termguicolors = true
 -- My configs
 vim.wo.relativenumber = true
 vim.g.mapleader = " " -- set <leader> to space
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.smartindent = true
+
 
 -- Load Lazy.nvim (plugin manager)
 require("config.lazy")
